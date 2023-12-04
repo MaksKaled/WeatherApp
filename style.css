@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right top,rgb(150, 74, 148),rgb(75, 75, 237))no-repeat;
+    height:100vh;
+    overflow: hidden;
+}
+
+.weatherApp{
+    padding: 10px;
+    border-color: rgb(182, 23, 245);
+    border-radius: 15px;
+    border-width: 5px;
+    border-style:inset;
+    width: 300px;
+    height: auto;
+    background-color: rgb(207, 212, 212);
+}
+
+.placeLogo{
+    width: 20px;
+    height: auto;
+   
+}
+.picContainer{
+
+}
+.weatherPic{
+    border-style: solid;
+    /* border-color: rgb(31, 210, 207); */
+    border-width: 3px;
+    border-radius: 15px;
+    width: 184px;
+    height: 184px;
+    /* height: auto; */
+    display: block;
+    margin: 0 auto;
+    
+}
+#responseBlock{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.prop{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.prop img{
+    width: 30px;
+    display: flex;
+    
+    
+}

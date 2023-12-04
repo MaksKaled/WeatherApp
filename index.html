@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="weatherApp">
+        <input id="input" type="text">
+    <button id="getResponse">getResponse</button>
+    <div class="myLocation">
+        <button id="locationWeather">
+            <img class="placeLogo" src="./images/location-sign-svgrepo-com.svg" alt="">
+        </button>
+        
+    </div>
+    <div class="picContainer">
+        <img id="weatherConditionVector"
+       class="weatherPic" src="" alt="" >
+       <div id="temperature" class="temp">
+        
+       </div>
+    </div>
+    
+    
+    <div id="responseBlock">
+        <div class="prop wind">
+            <img src="./images/wind-svgrepo-com.svg" alt="" >
+            <div id="windCondition"></div>
+        </div>
+        <div class="prop humidity">
+            <img src="./images/humidity-svgrepo-com.svg" alt="" >
+            <div id="humidityCondition"></div>
+        </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
