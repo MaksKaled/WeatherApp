@@ -43,11 +43,15 @@ getResponsesBtn.addEventListener('click',()=>{
                 break;
             case 'Clear': 
             weatherConditionVector.src = './images/clear-min.png'
+break;
+
             case 'Thunderstorm':
                 weatherConditionVector.src = './images/thunderstorm-min.png'
                 break;
             case 'Snow': 
             weatherConditionVector.src = './images/snow-min.png'
+break;
+
             case 'Rain':
                 weatherConditionVector.src = './images/rain-min.png'
                 break;
